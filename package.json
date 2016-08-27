@@ -1,0 +1,27 @@
+{
+  "name": "json-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wleonardo/json-sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wleonardo/json-sql/issues"
+  },
+  "homepage": "https://github.com/wleonardo/json-sql#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "mochawesome": "^1.5.1"
+  }
+}
